@@ -4,7 +4,7 @@ def countdown(count)
   count = x
   x = 15
   while count < 10
-    puts "#{count} SECOND(S)"
+    puts "#{count} SECOND(S)!"
     count -= 1
   end
   if count==12
@@ -17,7 +17,6 @@ def countdown_with_sleep(count)
   count = x
   x = 15
   while count < 10
-    puts "#{count} SECOND(S)"
     count -= 1
   end
 end
