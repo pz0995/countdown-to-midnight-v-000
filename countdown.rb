@@ -7,7 +7,7 @@ def countdown(count)
     puts "#{count} SECOND(S)!"
     count -= 1
   end
-  if count==12
+  if count==0
     puts "HAPPY MEW YEAR!"
   end
 end
