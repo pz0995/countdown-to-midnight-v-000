@@ -17,6 +17,8 @@ def countdown_with_sleep(count)
   count = x
   x = 15
   while count < 10
+    puts "#{count} SECOND(S)!"
     count -= 1
   end
-end
+  if count==0
+    puts "HAPPY MEW YEAR!"
